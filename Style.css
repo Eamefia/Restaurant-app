@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Raleway&family=Rubik&display=swap");
+
+
+button, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/* typography class */
+font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+font-rale {
+    font-family: "Raleway", cursive;
+}
+
+font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+font-size {
+    font-size: 12;
+}
+
+font-size {
+    font-size: 14;
+}
+
+font-size {
+    font-size: 16;
+}
+
+font-size {
+    font-size: 20;
+}
+
+font-size {
+    font-size: 37;
+}
+
+font-size {
+    font-size: 50;
+}
+
+.navbar-brand{
+    width: 3px;
+    height: 2px;
+}
+
+/* Color Template */
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background: #003859;
+}
+
+.color-second {
+    color: #00a5c4;
+}
+
+.color-second-bg {
+    background: #00a5c4;
+}
+
+.color-yellow {
+    color: #ffd289;
+}
+
+.color-yellow-bg {
+    background: #ffd289;
+}
+
+.input-search{
+    padding-top: 5px;
+    padding-left: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* top sale template */
+#top-sale .owl-carousel .item.product a {
+    overflow: hidden;
+}
+#top-sale .owl-carousel .item.product img { 
+    transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item.product img {
+    transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+#product .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#product .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#product .owl-carousel .owl-nav button.owl-prev span,
+#product .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+#product .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+#product .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#product .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    background: rgb(248, 246, 246);
+    border-radius: 25px 25px 0px 0px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+.items-wrapper{
+    padding-top: 12px;
+}
+
+.item-p{
+    border-radius: 8px;
+    padding-top: 3px;
+}
+
+.item-p a img{
+    border-radius: 8px;
+}
+
+
+.container {
+    padding-top: 10px;
+}
+
+.main-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+.main-container {
+    font-family: arial;
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+.signup-form{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+
+
+.signup-form input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height:40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+.signup-form button{
+    display: block;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    cursor: pointer;
+}
+ #phone {
+  display: none;
+}
+
+.signup-form button:hover{
+    background-color: #111;
+}
+
+ 
+#category{
+    padding: 10px;
+    margin: 10px;
+}
+.category-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.main-dish{
+    width: 85px;
+    height: 130px;
+    padding-top: 50px;
+    background: rgb(230, 230, 0);
+    text-align: center;
+    border: 0px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(39, 39, 39, 0.3);
+}
+
+.breakfast{
+    width: 85px;
+    height: 130px;
+    padding-top: 50px;
+    background: rgb(240, 240, 240);
+    text-align: center;
+    border: 0px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(39, 39, 39, 0.3);
+}
+
+.drinks{
+    width: 85px;
+    height: 130px;
+    padding-top: 50px;
+    background: rgb(240, 240, 240);
+    text-align: center;
+    border: 0px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(39, 39, 39, 0.3);
+}
+
+#breakfas-category{
+    padding: 15px 10px 10px 10px;
+    margin: 12px 7px 5px 7px;
+}
+
+.breakfast-items{
+    width: 100%;
+    height: 165px;
+    display: flex;
+    padding-left: 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f9f9f9;
+    border-radius: 10px 10px 0px 0px;
+    background: white;
+}
+
+
+.image-item{
+    width: 40%;
+    height: 140px;
+    padding-top: 0px;
+    border: 0px solid white;
+    border-radius: 10px;
+}
+
+.image-item a img{
+    width: 170px;
+    height: 150px;
+    border: 0px solid white;
+    border-radius: 11px;
+}
+
+.desc-item{
+    width: 40%;
+    height: 140px;
+    float: right;
+    padding-top: 15px;
+}
+
+.desc-item h4 p{
+    padding-right: 5px;
+}
+
+.name-price{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.name{
+    width: 55%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    background: rgb(241, 237, 237);
+    border: 0px solid white;
+    border-radius: 25px;
+}
+
+.delivery-datails{
+    padding: 20px;
+    margin: 10px;
+}
+
+.delivery-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin: 1px;
+}
+
+.delv-img{
+    width: 45%;
+}
+
+.delv-img img{
+    width: 150px;
+    background: white;
+}
+
+.delv-desct{
+    width: 45%;
+}
+
+.order-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin: 1px;
+}
+
+.Contact{
+    position: fixed;
+    bottom: 5%;
+    border-radius: 10px;
+}
+
+.Contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp{
+    position: fixed;
+    right: 5%;
+    padding-top: 3px;
+    bottom: 5%;
+    border-radius: 10px;
+}
+
+.vf{
+    color: rgb(223, 223, 0);
+}

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Raleway&family=Rubik&display=swap");
+/*  sass template  */
+/*  global varaible  */
+button, button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */
