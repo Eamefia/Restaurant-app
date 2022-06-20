@@ -2,12 +2,13 @@
 <?php
 shuffle($product_shuffle);
 ?>
+<div id="scrollspyHeading1" height="35"> </div>
 <section id="new-phones">
     <div class="container">
         <h4 class="font-rubik font-size-20">Main dish</h4>
         <hr>
 
-        <div class="container-fluid">
+        <div class="container-fluid"> 
             <?php foreach ($product_shuffle as $item) {
                 if($item['hostel_type'] == 'Hostel'){
                 ?>
@@ -31,7 +32,7 @@ shuffle($product_shuffle);
         </div>
     </div>
 </section>
-
+<div id="scrollspyHeading2" height="35"> </div>
 <section id="breakfas-category">
     <h3>Breakfast</h3>
     <hr>
@@ -54,7 +55,7 @@ shuffle($product_shuffle);
     </div>
   </div>
 </section>
-
+<div id="scrollspyHeading3" height="35"> </div>
 <section id="breakfas-category">
     <h3>Drinks</h3>
     <hr>

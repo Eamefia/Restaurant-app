@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>KingsRoom</title>
+    <title>Foodies</title>
 
     <!--bootstrapCDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -41,9 +41,9 @@
 
 </head>
 <body>
-<header id="header">
-  <nav class="navbar navbar-expand-lg navbar-dark color-light-bg">
-            <a class="brand" href="index.php" style="padding-bottom:5px; color:black; font-size: 30"><i><h4>Take5</h4></i></a>
+<div id="header">
+  <div class="header p-3 position-sticky shadow bg-body rounded" style="display: flex; justify-content:center; height:70px; width: 100%">
+            <a class="brand" href="index.php" ><h4 class="p-2 mb-1 text-center shadow bg-body rounded" style="background-color: #f2f2f2; border-radius:25px; color:black; font-size: 26">Foodies Restaurant</h4></a>
             <?php
                if(isset($_SESSION['u_uid'])){
                   if($_SESSION['u_uid'] !== "ferrari"){?>
@@ -56,14 +56,18 @@
                   }
                }else {?>
                 
-               <div class="nav-item pr-2">
+               <!---<div class="nav-item pr-2">
                   <a href="login.php" style="color: black; text-decoration: none; font-size: 20px">Login</a>
-               </div>
+               </div>-->
                <?php
                }
             ?>
-       </div>
-    </nav>
-
-  </header>
+    </dev>
+</div>
+<!---<div class="header p-2 position-fixed"" style="text-align:center; z-index: 100">
+          <a class='logo pt-5'>
+                <h5 class="header__logo__text">Foodies Restaurant</h5>
+          </a>
+   </div>---->
+  
 <main id="main-site">
