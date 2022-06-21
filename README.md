@@ -3,7 +3,7 @@
 This is a test restaurant website done with PHP, MySQl, bootstrap, HTML/CSS
 Don't watch the commited comment, it was a hostel booking website I did that I transform to a Restaurant website
 
-![Screenshot (7)](https://user-images.githubusercontent.com/88607932/174646617-7335e82f-9f6d-4f10-aac2-875f67c3b43e.png)
-![Screenshot (8)](https://user-images.githubusercontent.com/88607932/174646626-d756eb5b-600e-4293-b78b-b738fef53e5c.png)
-![Screenshot (5)](https://user-images.githubusercontent.com/88607932/174646627-b8a7eff0-1c71-47f6-aebc-290a0345774a.png)
-![Screenshot (6)](https://user-images.githubusercontent.com/88607932/174646630-9c21979f-b039-476d-9c28-771973731e0d.png)
+
+![Screenshot (11)](https://user-images.githubusercontent.com/88607932/174825168-7893388e-88f9-46e3-bbd1-56c50460413d.png)
+![Screenshot (12)](https://user-images.githubusercontent.com/88607932/174825186-6036c8c6-e817-485a-9372-ea99d9fdc8fb.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/88607932/174825190-23276df5-d491-49ae-abb0-3d95e33790ec.png)
