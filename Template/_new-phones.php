@@ -2,21 +2,20 @@
 <?php
 shuffle($product_shuffle);
 ?>
+<div id="scrollspyHeading1" height="35"> </div>
 <section id="new-phones">
     <div class="container">
-        <h4 class="font-rubik font-size-20">Main dish</h4>
         <hr>
-
-        <div class="container-fluid">
+        <div class="container-fluid"> 
             <?php foreach ($product_shuffle as $item) {
                 if($item['hostel_type'] == 'Hostel'){
                 ?>
                 <div class="items-wrapper">
                   <div class="item-p py-2 bg-white">
-                    <div class="product font-rale">
+                    <div class="product-items font-rale">
                         <a href="<?php printf('%s?hostel_id=%s', 'Product.php', $item['hostel_id']); ?>">
-                        <img src="<?php echo $item['hostel_image'] ?? "./assets/products/1.jpg"; ?>" alt="product1" class="img-fluid"></a>
-                        <div class="text-center">
+                        <img src="<?php echo $item['hostel_image'] ?? "./assets/products/1.jpg"; ?>" alt="product1" class="img-pro"></a>
+                        <div class="text-center d-flex justify-content-around align-items-center">
                             <h6><?php echo $item['hostel_name'] ?? "Unknown"; ?></h6>
                             <div class="price py-2">
                             GH&#x20B5;<span><?php echo $item['two_in_one'] ?? 0; ?></span>
@@ -31,7 +30,7 @@ shuffle($product_shuffle);
         </div>
     </div>
 </section>
-
+<div id="scrollspyHeading2" height="35"> </div>
 <section id="breakfas-category">
     <h3>Breakfast</h3>
     <hr>
@@ -54,7 +53,7 @@ shuffle($product_shuffle);
     </div>
   </div>
 </section>
-
+<div id="scrollspyHeading3" height="35"> </div>
 <section id="breakfas-category">
     <h3>Drinks</h3>
     <hr>

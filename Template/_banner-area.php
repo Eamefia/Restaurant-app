@@ -10,13 +10,12 @@
   }
   #banner-area{
     background: rgb(253, 251, 251);
-    padding-top: 5px;
     border: 1px solid rgb(251, 251, 251);
     border-radius: 25px;
   }
 </style>
 <!-- Owl-carousel -->
-<section id="banner-area">
+<div id="banner-area">
     <div class="owl-carousel owl-theme p-3">
     <?php foreach ($product_shuffle as $item) {
          if($item['hostel_type'] == 'Banner'){
@@ -29,13 +28,13 @@
         }
         ?>
     </div>
-</section>
+      </div>
 <!--end Owl-carousel -->
-<section id="category">
+<!--<div id="category">
   <div class="category-items">
-    <div class="main-dish">Main dish</div>
-    <div class="breakfast">Breakfast</div>
-    <div class="drinks">Drinks</div>
+    <div class="main-dish"><a class="item" href="#scrollspyHeading1">Main dishes</a></div>
+    <div class="breakfast"><a class="item" href="#scrollspyHeading2">Breakfast</a></div>
+    <div class="drinks"><a class="item" href="#scrollspyHeading3">Drinks</a></div>
   </div>
 
-</section>
+      </div>-->

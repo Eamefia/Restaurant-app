@@ -44,6 +44,15 @@ font-size {
     font-size: 50;
 }
 
+.header{
+    height: 70px;
+    text-align: center;
+    background-color: #fdfeff;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
 .navbar-brand{
     width: 3px;
     height: 2px;
@@ -80,7 +89,6 @@ font-size {
     align-items: center;
     justify-content: center;
 }
-
 
 
 /* top sale template */
@@ -148,7 +156,7 @@ font-size {
 }
 
 
-.container-fluid{
+/*.container-fluid{
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -157,10 +165,20 @@ font-size {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1.5rem;
     grid-row-gap: 2rem;
+    padding-bottom: 10px;
+}*/
+
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
 }
 
 .items-wrapper{
     padding-top: 12px;
+    background: rgb(248, 246, 246);
 }
 
 .item-p{
@@ -308,6 +326,23 @@ font-size {
     padding-top: 0px;
     border: 0px solid white;
     border-radius: 10px;
+}
+
+
+.product-items{
+ width: 100%;
+ height: auto;
+ padding: 10px;
+ border-radius: 10px;
+ text-align: center;
+ background-color: rgb(253, 253, 253);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.img-pro{
+    width: 330px;
+    height: 235px;
 }
 
 .image-item a img{

@@ -61,6 +61,11 @@
   animation: spin 5s linear infinite;
 }
 
+.details-images{
+    width: 100%;
+    height:50vw;
+}
+
 .product-images{
     background: rgb(95, 77, 73);
 }
@@ -117,7 +122,7 @@ function show(){
 </script>
 
 <section class="product-images">
-  <div id="product" class="product py-0 px-5">
+  <div id="product" class="product py-0">
     <div class="owl-carousel owl-theme">
 
         <?php
@@ -126,8 +131,8 @@ function show(){
         $init = $conn->query($sql);
         while ($row = mysqli_fetch_assoc($init)){
             if ($row['uploads_id'] == $item_id) {?>
-              <div class="item pl-3">
-                  <img src="./assets/childImages/<?php echo $row['images_name']?>">
+              <div class="item pl-1 pr-1">
+                  <img src="./assets/childImages/<?php echo $row['images_name']?>" class="details-images">
               </div>
             <?php
             }
